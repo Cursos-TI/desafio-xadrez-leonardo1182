@@ -1,4 +1,4 @@
-/*Desafio xadrez movimwnto de peças 
+/*Desafio xadrez movimento de peças 
 Torre: 5 casas para a direita;
 Bispo: 5 casas na diagonal para cima e para a direita;
 Rainha: 8 casas para a direita*/
@@ -15,7 +15,7 @@ int main(){
     printf("Movento a Torre: \n");
 
     for (int torre = 0 ; torre < 5; torre ++){
-            printf("Diteira\n", torre);
+        printf("Diteira\n", torre);
     }
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
 
@@ -36,7 +36,7 @@ int main(){
 
     while (rainha <= 8){
         printf("Esquerda\n");
-        rainha +=1;
+        rainha ++;
     
     }
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
