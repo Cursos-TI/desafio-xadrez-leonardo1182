@@ -21,7 +21,7 @@ int main(){
 
     //movendo p bispo 5 casas na dagonal direita
     int bispo = 0;
-    printf("Movendo o bispo: \n");
+    printf("Movendo o Bispo: \n");
 
     do{
         printf("Cima, Direita\n", bispo);
